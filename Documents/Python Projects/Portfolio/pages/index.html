@@ -1,10 +1,67 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>My Portfolio</title>
+    <title>Edgar Reyes Portfolio</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin-top: 0;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        .sidebar {
+            float: left;
+            width: 20%;
+            padding: 10px;
+            background-color: #f9f9f9;
+        }
+
+        .main {
+            float: inline-start;
+            width: 80%;
+            padding: 10px;
+        }
+
+        .about {
+            width: 20%;
+            float: right;
+        }
+
+        .item {
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
+
 <body>
-<h1>My Portfolio</h1>
-<p>This is my portfolio website.</p>
+    <div class="sidebar">
+        <img src="img/pixel-art-face.gif" alt="looping gif of a pixel art face making different expressions">
+        <p class="sb-name">Edgar</p>
+        <p class="sb-role">Python Developer</p>
+        <a class="sb-item" href="#">About</a> <br>
+        <a class="sb-item" href="#">Skills</a> <br>
+        <a class="sb-item" href="#">Projects</a> <br>
+        <a class="sb-item" href="#">Contact</a> <br>
+        <a href="www.linkedin.com/in/edgar-reyes-caro-287a041b3" target="_blank"><img src="img/linkedin-icon.png" alt="LinkedIn icon"></a>
+        <a href="https://github.com/Comfyish" target="_blank"><img src="img/github-icon.png" alt="GitHub Icon"></a>
+    </div>
+    <div class="main">
+        <h1>Hi! <img src="img/pixel-art-me-waving.gif" alt="looping gif of pixel art me waving"><br>I'm Edgar Reyes,<br>Python Developer</h1>
+        <a id="Contact">Contact Me!</a>
+    </div>
+    <div class="about">
+        <img src="img/me.jpg" alt="picture of me">
+        <h3>About Me</h3>
+        <p>I'm a Python developer with experience in web development, data science, and machine learning. I'm passionate about building software that solves real-world problems.</p>
+    </div>
+    <img src="img/pixel-art-boxer.gif" alt="looping gif of a pixel art boxer doing a combo into a backflip which resets the animation">
 </body>
 </html>
